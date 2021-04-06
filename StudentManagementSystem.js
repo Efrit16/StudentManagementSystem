@@ -34,3 +34,9 @@ students =[];
 function createFullName (firstName, lastName) {
     return firstName + " " + lastName ;
 }
+
+addStudent( createFullName(Youssef, Efrit));
+addStudent( createFullName(Amine, Mhiri));
+addStudent( createFullName(Aziz, trabelsi));
+addStudent( createFullName(Youssef, Binous));
+addStudent( createFullName(Mohamed, Daadaa));
