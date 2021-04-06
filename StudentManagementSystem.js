@@ -11,6 +11,7 @@ function addStudent (name) {
 
     numberofStudents = numberofStudents + 1 ;
     students.push(name);
+    students.length = numberofstudents;
 }
 
 function getNumberOfStudents () {
