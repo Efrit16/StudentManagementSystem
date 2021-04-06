@@ -24,3 +24,8 @@ addStudent(Alaa);
 addStudent(Amine);
 addStudent(Mohamed);
 addStudent(Aziz);
+
+function clearStudents (name) {
+numberofStudents = 0 ;
+students =[];
+}
