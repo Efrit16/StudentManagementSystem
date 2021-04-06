@@ -4,10 +4,11 @@ function add (number1, number2){
 add(1,2)
 
 var numberofStudents = 0 ;
-
-function addStudent () {
+const students = [] ;
+function addStudent (name) {
 
     numberofStudents = numberofStudents + 1 ;
+    students.push(name);
 }
 
 function getNumberOfStudents () {
@@ -16,4 +17,3 @@ return numberofStudents;
 
 }
 
-const students = [] ;
