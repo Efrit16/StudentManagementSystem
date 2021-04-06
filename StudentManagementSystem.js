@@ -30,3 +30,7 @@ function clearStudents (name) {
 numberofStudents = 0 ;
 students =[];
 }
+
+function createFullName (firstName, lastName) {
+    return firstName + " " + lastName ;
+}
