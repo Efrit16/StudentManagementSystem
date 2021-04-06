@@ -10,3 +10,10 @@ function addStudent () {
     numberofStudents = numberofStudents + 1 ;
 }
 
+function getNumberOfStudents () {
+
+return numberofStudents;
+
+}
+
+const students = [] ;
